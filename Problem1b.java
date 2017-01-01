@@ -19,10 +19,6 @@ public class Problem1b {
 		printSet(listR2);
 	}
 	
-	
-	
-	
-	
 	/**
 	 * This method determines the difference between two lists of comparable elements
 	 *  and saves the results if any into the list <b>Difference</b>.
@@ -70,6 +66,7 @@ public class Problem1b {
 			}
 		}
 	}
+	
 	public static <AnyType extends Comparable<? super AnyType> >void printSet(List<AnyType> set){
 
 		//--------Simple print to test Results-------
